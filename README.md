@@ -55,6 +55,12 @@ Step 2: $ node server.js
 
 I have created a combined script to execute these two commands one after the other in the package.json file.
 Hit npm run-script run
+Hit npm run build
+
+## Deploying to Heroku
+
+By default Heroku calls npm scripts: install, postinstall, start.
+We can use postinstall to build the app and start script to run the express server. 
 
 ## NOTE:
 
