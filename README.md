@@ -1,4 +1,4 @@
-# Pre-requisites
+# Pre-requisites For setting up from scratch
 
 Install Angular CLI using the command
 $ npm install -g angular-cli
@@ -67,3 +67,8 @@ We can use postinstall to build the app and start script to run the express serv
 For demo purpose, I have a route at express layer at /api and the default route for angular is '/'
 If you hit localhost:3000/api - the page is rendered from express
 If you hit localhose:3000, default angular2 routing takes over.
+
+# To run the project after cloning
+
+Hit npm install
+run command npm run build
