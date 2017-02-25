@@ -13,7 +13,7 @@ module.exports = function(app) {
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({extended: false}));
 
-  // Set our api routes
+  // Set our api routes -  basic routing
   app.use('/api', api);
 
   /**
