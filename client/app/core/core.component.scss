@@ -1,0 +1,12 @@
+select {
+  display: block;
+  border-radius: 8px;
+  height: 40px;
+  -webkit-appearance: none;
+  padding: 5px 15px;
+  color: gray;
+}
+
+select:focus {
+    outline: none;
+} 
